@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Attendance Management System</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Custom font styles */
+    body {
+      font-family: Arial, sans-serif; /* Use Arial font as default */
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Use Helvetica Neue font for headings */
+    }
+
+    p {
+      font-size: 16px; /* Set default font size for paragraphs */
+    }
+
+    /* Increase the size of h1 */
+    h1.display-4 {
+      font-size: 3.5rem; /* Adjust the font size as needed */
+    }
+
+    /* Vertically center content in jumbotron */
+    .jumbotron {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 50vh; /* Set jumbotron height to viewport height */
+      background-image: url('image.webp'); /* Specify the path to your background image */
+      background-size: cover; /* Ensure the background image covers the entire element */
+      background-position: center; /* Center the background image */
+      color: white; /* Set text color to white for better readability */
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Attendance System</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="jumbotron">
+    <h1 class="display-4">     Attendance Management System   </h1>
+    <p class="lead">Efficiently manage attendance with our user-friendly system</p>
+  </div>
+<!-- Features Section -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <h2>Easy to Use</h2>
+      <p>Our system is designed to be intuitive and user-friendly, making attendance management hassle-free.</p>
+    </div>
+    <div class="col-md-4">
+      <h2>Accurate</h2>
+      <p>With advanced fingerprint scanning technology, our system ensures accurate attendance records.</p>
+    </div>
+    <div class="col-md-4">
+      <h2>Secure</h2>
+      <p>We prioritize the security of your data, implementing encryption and other measures to keep it safe.</p>
+    </div>
+  </div>
+</div>
+<!-- Three horizontal boxes for registration, past records, and daily records -->
+<div class="container mt-5 mb-5">
+  <div class="row">
+    <!-- Registration Box -->
+    <div class="col-md-4">
+      <a href="registration.html" style="text-decoration: none; color: inherit;">
+        <div class="card h-100" style="background-color: #000; color: #fff;">
+          <div class="card-body">
+            <h2>Registration</h2>
+            <p>Register new users into the system for attendance tracking.</p>
+          </div>
+        </div>
+      </a>
+    </div>
+  <!-- Past Records Box -->
+<div class="col-md-4">
+  <a href="login.html" style="text-decoration: none; color: inherit;">
+    <div class="card h-100" style="background-color: #000; color: #fff;">
+      <div class="card-body">
+        <h2>REGISTERED MEMBERS</h2>
+        <p>If you are fully registered your name appears on the list</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+    <!-- Daily Records Box -->
+    <div class="col-md-4">
+      <div class="card h-100" style="background-color: #000; color: #fff;">
+        <div class="card-body">
+          <h2>Daily Records</h2>
+          <p>Check daily attendance records in real-time.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Footer -->
+  <footer class="footer mt-auto py-3 bg-dark text-light">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-12">
+          <span class="text-muted">© 2024 Attendance Management System</span>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-md-6">
+          <h4>Contact Info</h4>
+          <p>Email: info@example.com<br>Phone: +1234567890</p>
+        </div>
+        <div class="col-md-6">
+          <h4>Follow Us</h4>
+          <p>
+            <a href="https://wa.me/1234567890" target="_blank" class="text-light mr-2"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://facebook.com/example" target="_blank" class="text-light mr-2"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com/example" target="_blank" class="text-light mr-2"><i class="fab fa-twitter"></i></a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
